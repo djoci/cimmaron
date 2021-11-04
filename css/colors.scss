@@ -1,0 +1,72 @@
+$dark: #4a5c75;
+$medium: #7e90aa;
+$light: #d8dce7;
+$white: #ffffff;
+
+body ,
+.nav-link:hover ,
+.profile a:hover ,
+.card-1:hover ,
+.card-2:hover  {
+	color: $dark;
+}
+.profile a ,
+.profile span {
+	color: $medium;
+}
+.loan-btn ,
+.card-1 ,
+.card-2 ,
+.loan-btn:hover ,
+.loan-btn:active , 
+.loan-btn:focus ,
+.card-3:hover {
+    color: $white;
+}
+.bar ,
+.loan-btn ,
+.card-1 ,
+.card-3:hover {
+    background-color: $dark;
+}
+.loan-btn:hover ,
+.loan-btn:active , 
+.loan-btn:focus ,
+.card-2 {
+    background-color: $medium;
+}
+.card-1:hover ,
+.card-3 {
+	background-color: $light;
+}
+.main ,
+.card-4 ,
+.card-2:hover ,
+footer{
+	 background-color: $white;	
+}
+.header{
+    border-bottom: 1px solid $light;
+}
+.card {
+	border: 1px solid $light;
+	border-bottom: 10px solid #f0d4b8;
+}
+footer {
+    border-top: 1px solid $light;
+}
+.partner-img img {
+    border-color: $medium;
+}
+@media (max-width: 767px) {   
+	.nav-menu {
+        background-color: $white;
+        border-bottom: 2px solid $medium;
+    }
+    .scroll-top {
+	  background-color: $dark;
+	}
+	.fa-arrow-up {
+	    color: $white;
+	}
+}

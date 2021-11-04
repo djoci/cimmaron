@@ -13,7 +13,6 @@ html,
 body {
 	font-family: 'Nunito Sans', sans-serif;
 	height: 100%;
-	color: #4a5c75;
 	font-size: 1rem;
    font-weight: 400;
    line-height: 1.5;
@@ -44,7 +43,6 @@ h1 {
 }
 
 .header{
-    border-bottom: 1px solid #d8dce7;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -67,7 +65,6 @@ h1 {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #4a5c75;
 }
 
 .active .bar:nth-of-type(2) {transition: all 0.1s}
@@ -86,31 +83,17 @@ h1 {
     font-weight: 700;
 }
 
-.nav-link:hover{
-    color: #4a5c75;
-}
-
-
 .nav-logo img {
    width: 250px;
    vertical-align: middle;
 }
 
 .loan-btn {
-    background-color: #4a5c75;
-    color: #fff;
     border-radius: 38px;
     padding: 8px 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.loan-btn:hover ,
-.loan-btn:active , 
-.loan-btn:focus {
-    background-color: #7e90aa;
-    color: #fff;
 }
 
 .loan-btn img {
@@ -121,15 +104,6 @@ h1 {
 .profile {
 	display: flex;
    flex-direction: row;
-}
-
-.profile a ,
-.profile span {
-	color: #7e90aa;
-}
-
-.profile a:hover {
-	color: #4a5c75;
 }
 
 .profile span {
@@ -172,8 +146,7 @@ h1 {
 .main {
     position: relative;
 	 text-align: center;
-	 padding: 4rem 0;
-	 background-color: #fff;	
+	 padding: 4rem 0;	
 }
 
 .card {
@@ -181,8 +154,6 @@ h1 {
 	position: relative;
 	margin-bottom: 2em;
    font-weight: 700;
-	border: 1px solid #d8dce7;
-	border-bottom: 10px solid #f0d4b8;
 }
 
 .card div {
@@ -190,44 +161,8 @@ h1 {
     transition: all .15s ease-in-out;
 }
 
-.card-1 ,
-.card-2 {
-	color: #fff;
-}
-
 .card-1 p:nth-child(1) {
     font-size: 1.3rem;
-}
-
-.card-1 {
-	background-color: #4a5c75;
-}
-
-.card-1:hover {
-	background-color:#d8dce7;
-     color: #4a5c75;
-}
-
-.card-2 {
-	background-color: #7e90aa;
-}
-
-.card-2:hover {
-	background-color: #fff;
-    color: #4a5c75;
-}
-
-.card-3 {
-	background-color: #d8dce7;
-}
-
-.card-3:hover {
-	background-color:#4a5c75;
-     color: #fff;
-}
-
-.card-4 {
-	background-color: #fff;
 }
 
 .card-3 p:nth-child(1) {
@@ -278,7 +213,6 @@ h1 {
     height: 80px;
     border-style: solid;
     border-width: 5px;
-    border-color: #7e90aa;
 }
 
 .partner-name {
@@ -293,8 +227,6 @@ footer {
     align-items: center;
     padding: 2rem;
     text-align: center;
-    background-color: #fff;
-    border-top: 1px solid #d8dce7;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -313,11 +245,9 @@ footer p {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #fff;
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        border-bottom: 2px solid #7e90aa;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         z-index: 10;
@@ -388,17 +318,12 @@ footer p {
 	  width: 35px;
 	  height: 35px;
 	  border-radius: 50%;
-	  background-color: #4a5c75;
 	  opacity: 20%;
 	  transition: all 0.3s;
 	}
 	
 	.scroll-top:active {
 	    opacity: 100%
-	}
-	
-	.fa-arrow-up {
-	    color: #fff;
 	}
 }
 
@@ -490,5 +415,3 @@ footer p {
 	    height: 100px;
     }
 }
-
-
