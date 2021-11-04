@@ -173,14 +173,7 @@ h1 {
     position: relative;
 	 text-align: center;
 	 padding: 4rem 0;
-	 background-color: #c0c0c0;
-	 background: url("../img/Partner_App_Illustration.svg");
-	 background: -moz-linear-gradient(95deg, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url('../img/Partner_App_Illustration.svg');
-	 background: -webkit-linear-gradient(95deg, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url('../img/Partner_App_Illustration.svg'); 
-	 background: linear-gradient(95deg, rgba(255, 246, 255, 0.7),rgba(255, 255, 255, 0.7)), url('../img/Partner_App_Illustration.svg');    
-	 background-repeat: no-repeat;
-	 background-position: 100% 100%;
-	 background-size: cover; 	
+	 background-color: #fff;	
 }
 
 .card {
@@ -324,7 +317,9 @@ footer p {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        border-bottom: 1px solid #E2E8F0;
+        border-bottom: 2px solid #7e90aa;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         z-index: 10;
     }
 
@@ -338,6 +333,10 @@ footer p {
     
     .profile {
     	  margin-top: -.5rem;
+    }
+    
+    .profile .nav-link {
+        margin: 1rem 0;
     }
 
     .hamburger {
@@ -413,6 +412,16 @@ footer p {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+    }
+    
+    .main {
+    	 background: url("../img/Partner_App_Illustration.svg");
+		 background: -moz-linear-gradient(95deg, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url('../img/Partner_App_Illustration.svg');
+		 background: -webkit-linear-gradient(95deg, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url('../img/Partner_App_Illustration.svg'); 
+		 background: linear-gradient(95deg, rgba(255, 246, 255, 0.7),rgba(255, 255, 255, 0.7)), url('../img/Partner_App_Illustration.svg');    
+		 background-repeat: no-repeat;
+		 background-position: 100% 100%;
+		 background-size: cover; 
     }
     
     .profile {
