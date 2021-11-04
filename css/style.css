@@ -13,7 +13,7 @@ html,
 body {
 	font-family: 'Nunito Sans', sans-serif;
 	height: 100%;
-	color: #464648;
+	color: #4a5c75;
 	font-size: 1rem;
    font-weight: 400;
    line-height: 1.5;
@@ -67,7 +67,7 @@ h1 {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #464648;
+    background-color: #4a5c75;
 }
 
 .active .bar:nth-of-type(2) {transition: all 0.1s}
@@ -87,7 +87,7 @@ h1 {
 }
 
 .nav-link:hover{
-    color: #464648;
+    color: #4a5c75;
 }
 
 
@@ -129,7 +129,7 @@ h1 {
 }
 
 .profile a:hover {
-	color: #464648;
+	color: #4a5c75;
 }
 
 .profile span {
@@ -213,7 +213,7 @@ h1 {
 }
 
 .card-2:hover {
-	background-color: #fcfeff;
+	background-color: #fff;
     color: #4a5c75;
 }
 
@@ -227,7 +227,7 @@ h1 {
 }
 
 .card-4 {
-	background-color: #fcfeff;
+	background-color: #fff;
 }
 
 .card-3 p:nth-child(1) {
